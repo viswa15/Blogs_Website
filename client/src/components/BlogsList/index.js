@@ -17,7 +17,7 @@ const BlogsList = () => {
   }, []);
 
   const fetchData = async () => {
-    const url = "http://localhost:5000/blogs/";
+    const url = "https://blogs-website-backend.onrender.com/blogs/";
     const options = {
       method: "GET",
     };

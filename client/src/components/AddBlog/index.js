@@ -33,7 +33,7 @@ const AddBlog = ({ opened, setOpened, onBlogAdded }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await fetch("http://localhost:5000/blogs/", {
+    await fetch("https://blogs-website-backend.onrender.com/blogs/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

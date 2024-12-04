@@ -26,7 +26,7 @@ const BlogEdit = ({ opened, setOpened }) => {
   useEffect(() => {
     const fetchPost = async () => {
       const response = await fetch(
-        `http://localhost:5000/blogs/${_id}`
+        `https://blogs-website-backend.onrender.com/blogs/${_id}`
       );
       const data = await response.json();
       setBlogDetails({
@@ -43,7 +43,7 @@ const BlogEdit = ({ opened, setOpened }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await fetch(`http://localhost:5000/blogs/${_id}`, {
+    await fetch(`https://blogs-website-backend.onrender.com/blogs/${_id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
