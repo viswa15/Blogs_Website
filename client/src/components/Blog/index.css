@@ -1,0 +1,24 @@
+.blog-h-elem{
+    font-size: 2rem;
+    padding: 10px 0px;
+}
+
+.contet-elem{
+    padding: 10px 20px;
+}
+
+.date-elem{
+    align-self: flex-end;
+}
+
+.f-elem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.blog-btn-edit-delete-con{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
